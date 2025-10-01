@@ -1,0 +1,47 @@
+.banner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  // border: 1px solid red;
+  .banner-cont {
+    display: flex;
+    // width: 1400px;
+    // height: 600px;
+    border: 1px solid red;
+    .hhh1 {
+      background-image: url(../../assets/svg/banner1.svg);
+      width: 597px;
+      height: 570px;
+      border: 1px solid red;
+      text-decoration: none;
+      h1 {
+        width: 412px;
+        padding: 20px;
+        width: 412px;
+        padding: 20px;   
+        font-size: 40px;
+        font-weight: bold;
+        background: linear-gradient(90deg, #1313d0, #fe7bd7); /* Градиент */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+      }
+    }
+  }
+  .bbimg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 836px;
+    height: 521px;
+    // gap: 20px;
+    a{
+    width: 296px;
+    height: 221px;
+    }
+    img {
+      width: 286px;
+      height: 221px;
+    }
+  }
+}
