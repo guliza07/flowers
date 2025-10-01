@@ -5,8 +5,8 @@
   
 
   .container {
-    max-width: 1600px;
-    margin: 0 auto;
+    // max-width: 1600px;
+    // margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,6 +19,8 @@
     color: #fff;
     font-size: 14px;
     padding: 8px 0;
+   
+
      
 
     .top-left select {
@@ -27,20 +29,32 @@
       border: none;
       color: #fff;
       cursor: pointer;
+    //   display: flex;
+    //   justify-content: space-between;
+    //   align-items: center;
+
+    
  padding: 20px;
     }
 
     .top-right {
-      display: flex;
-           justify-content: space-between;
-      align-items: center;
-    
+          display: flex;
+        justify-content: space-between;
+   
+     
+      padding: 10px;
       
- 
 
       a {
         color: #fff;
         text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+     
+     
+    
+      
 
         &:hover {
           color: #f05b67;

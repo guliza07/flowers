@@ -12,10 +12,10 @@ function Header() {
       {/* Топ бар */}
       <div className="top-bar">
         <div className="container">
-          <div className="top-left">
+          {/* <div className="top-left">
             
           
-          </div>
+          </div> */}
           <div className="top-right">
             <Link to="/favorites">Закладки</Link>
             <Link to="/delivery">Доставка и оплата</Link>
@@ -58,6 +58,7 @@ function Header() {
               <a href="#"><i className="fa fa-telegram"></i></a>
               <a href="#"><i className="fa fa-facebook"></i></a>
             </div>
+            <img src={FiUser} alt="" />
             <div className="phone">+38 (067) 829 30 30</div>
             <div className="icons">
               <Link to="/wishlist"><IoIosHeartEmpty /></Link>
