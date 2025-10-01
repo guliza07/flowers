@@ -1,0 +1,166 @@
+.header {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  max-width: 1600px;
+  
+
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+
+  /* Верхняя панель */
+  .top-bar {
+    background: #2d2d2d;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 0;
+     
+
+    .top-left select {
+      margin-right: 15px;
+      background: transparent;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+ padding: 20px;
+    }
+
+    .top-right {
+      display: flex;
+           justify-content: space-between;
+      align-items: center;
+    
+      
+ 
+
+      a {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+          color: #f05b67;
+        }
+      }
+    }
+  }
+
+  /* Основной хедер */
+  .main-header {
+    background: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+
+    .main-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    .search {
+      display: flex;
+      gap: 10px;
+      flex: 1;
+      margin: 0 40px;
+
+      select,
+      input {
+        border: 1px solid #ccc;
+        padding: 8px 12px;
+        border-radius: 4px;
+      }
+
+      input {
+        flex: 1;
+      }
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .socials a {
+        margin-right: 10px;
+        color: #f05b67;
+      }
+
+      .phone {
+        font-weight: 600;
+      }
+
+      .icons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .cart {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+
+          .price {
+            font-weight: 600;
+            color: #f05b67;
+          }
+        }
+      }
+    }
+  }
+
+  /* Навигация */
+  .nav-bar {
+    background: #fff;
+    padding: 12px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 2px solid #f05b67;
+
+    .container {
+      gap: 40px;
+    }
+
+    a, span {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      position: relative;
+      cursor: pointer;
+
+      &:hover {
+        color: #f05b67;
+      }
+    }
+
+    .dropdown {
+      position: relative;
+
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        flex-direction: column;
+
+        a {
+          display: block;
+          padding: 5px 10px;
+        }
+      }
+
+      &:hover .dropdown-menu {
+        display: flex;
+      }
+    }
+  }
+}
